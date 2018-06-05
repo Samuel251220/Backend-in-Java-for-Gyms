@@ -26,11 +26,11 @@
             </div>
             <br><br>
             <div class="divO">
-              <div>
-                <input type="checkbox"><span class="checkS">Remember me</span>
+              <div class="divCheck">
+                <input type="checkbox"><span class="checkS">Recuerdame</span>
               </div>
               <div class="divF">
-                <span>forgot password?</span>
+                <span>Olvidaste tu contraseña?</span>
               </div>
             </div>
             <br><br>

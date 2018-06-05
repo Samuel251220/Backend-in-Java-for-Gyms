@@ -3,14 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/WEB-INF/template/headerMain.jspf</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/view/nosotros.jsp</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/view/articulos.jsp</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/css/estilos.css</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/view/contacto.jsp</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/inicio.jsp</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/view/multimedia.jsp</file>
-            <file>file:/C:/Users/asus/Documents/NetBeansProjects/GYM/web/view/registro.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym/web/view/registro.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym/web/WEB-INF/template/headerRegistrar.jspf</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym/web/inicio.jsp</file>
+            <file>file:/C:/Users/miguel/Documents/NetBeansProjects/Gym/web/WEB-INF/template/footerLogin.jspf</file>
         </group>
     </open-files>
 </project-private>
