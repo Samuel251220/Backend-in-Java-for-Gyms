@@ -17,7 +17,7 @@
 	<script src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/jquery.adipoli.min.js"></script>
-        <script src="../js/multimedia.js"></script>
+        <script src="../js/multimed ia.js"></script>
     </head>
     <body>
         <section>

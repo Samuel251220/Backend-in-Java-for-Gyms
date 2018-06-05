@@ -65,9 +65,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 2%;
-}
-.bntL:hover{
-  background: #e38d13;
+  font-size: 20px;
 }
 .checkS{
   margin-left: 10px;
