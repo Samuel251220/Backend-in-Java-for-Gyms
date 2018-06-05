@@ -99,8 +99,9 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Nosotros</a></li>\n");
       out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Articulos</a></li>\n");
       out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Multimedia</a></li>\n");
-      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Contacto</a></li>\n");
-      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\" class=\"btn btn-warning>Registro</a></li>\n");
+      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Registrarse</a></li>\n");
+      out.write("                                        <li class=\"bar\"><a href=\"#\">Iniciar seción</a></li>\n");
+      out.write("                                        <li class=\"bar\"><a href=\"#\" class=\"btn btn-warning\" style=\"color:#000;\">Registro</a></li>\n");
       out.write("\t\t\t\t        <!--<li class=\"dropdown\">\n");
       out.write("\t\t\t\t\t        <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expended=\"false\">\n");
       out.write("\t\t\t\t\t        Nuestros Servicios \n");
@@ -133,10 +134,9 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t</header>\n");
       out.write("\n");
       out.write("\n");
-      out.write("        \n");
       out.write("        <div class=\"topSlider\">\n");
       out.write("            <span>\n");
-      out.write("                <h1 class=\"bb\">GIMNASIO</h1>\n");
+      out.write("                <h1 class=\"bb\">GIMNASIOo</h1>\n");
       out.write("                <h2 class=\"bb\">STRONGER</h2>\n");
       out.write("            </span>\n");
       out.write("            <div class=\"slide\"></div>\n");
