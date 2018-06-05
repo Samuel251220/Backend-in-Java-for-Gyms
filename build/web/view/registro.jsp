@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1 class="title">Registro!</h1>
+        <h1 class="title">Registrarse</h1>
     </body>
 </html>
