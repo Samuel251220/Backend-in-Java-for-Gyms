@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class nosotros_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class multimedia_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -49,9 +49,26 @@ public final class nosotros_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
       out.write("        <title>JSP Page</title>\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n");
+      out.write("\t<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\n");
+      out.write("\t<link rel=\"stylesheet\" href=\"../css/adipoli.css\">\n");
+      out.write("\t<link rel=\"stylesheet\" href=\"../css/multimedia.css\">\n");
+      out.write("\t<script src=\"../js/jquery-3.3.1.min.js\"></script>\n");
+      out.write("\t<script src=\"../js/bootstrap.min.js\"></script>\n");
+      out.write("\t<script src=\"../js/jquery.adipoli.min.js\"></script>\n");
+      out.write("        <script src=\"../js/multimedia.js\"></script>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <h1 class=\"title\">Nosotros!</h1>\n");
+      out.write("        <section>\n");
+      out.write("\t\t<div class=\"container\">\n");
+      out.write("\t\t\t<h2 class=\"title_section\" >ULTIMAS IMAGENES</h2>\n");
+      out.write("\t\t\t<div class=\"row mb48\">\n");
+      out.write("                            <div class=\"col-md-4\"><a href=\"\"><img src=\"../img/uno.jpg\" alt=\"\" class=\"img-responsive hoveri\"></a></div>\n");
+      out.write("\t\t\t\t<div class=\"col-md-4\"><a href=\"\"><img src=\"../img/dos.jpg\" alt=\"\" class=\"img-responsive hoveri\"></a></div>\n");
+      out.write("\t\t\t\t<div class=\"col-md-4\"><a href=\"\"><img src=\"../img/tres.jpg\" alt=\"\" class=\"img-responsive hoveri\"></a></div>\n");
+      out.write("\t\t\t</div>\n");
+      out.write("\t\t</div>\n");
+      out.write("\t</section>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

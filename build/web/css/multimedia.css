@@ -1,0 +1,16 @@
+
+.mb48{
+	margin-bottom: 48px;
+
+}
+.title_section{
+	display: block;
+	color:#555;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.hoveri{
+    width: 320px;
+    height: 220px;
+}
