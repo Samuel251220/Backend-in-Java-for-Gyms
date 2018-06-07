@@ -16,7 +16,7 @@
         <%@include file="WEB-INF/template/HeadVarMain.jspf" %>
         <div class="topSlider">
             <span>
-                <h1 class="bb">GIMNASIO</h1>
+                <h1 class="bb">GIMNASIO</h1>   
                 <h2 class="bb">STRONGER</h2>
             </span>
             <div class="slide"></div>
