@@ -41,10 +41,10 @@ public class Menu extends HttpServlet {
             case 2: rd= request.getRequestDispatcher("view/nosotros.jsp");
                     rd.forward(request, response);
                     break;
-            case 3: rd= request.getRequestDispatcher("view/articulos.jsp");
+            case 3: rd= request.getRequestDispatcher("view/productos.jsp");
                     rd.forward(request, response);
                     break;
-            case 4: rd= request.getRequestDispatcher("view/registrarse.jsp");
+            case 4: rd= request.getRequestDispatcher("view/registrate.jsp");
                     rd.forward(request, response);
                     break;
             case 5: rd= request.getRequestDispatcher("view/sesion.jsp");

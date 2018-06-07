@@ -1,6 +1,6 @@
+
 .contentAll{
   box-sizing: border-box;
-  font-family: monospace;
   width: 600px;
   margin: auto;
   color: #000;
@@ -23,7 +23,7 @@
   box-sizing: border-box;
   border-bottom-left-radius: 10px;
   border-bottom-radius: 10px;
-  height: 300px;
+  height: 310px;
   padding: 3% 0;
 }
 .divI{
