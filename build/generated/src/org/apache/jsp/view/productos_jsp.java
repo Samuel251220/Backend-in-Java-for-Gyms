@@ -141,6 +141,17 @@ public final class productos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            </div>\r\n");
       out.write("            <div class=\"imgpro\"><img src=\"../img/prod1.jpg\"></div>\r\n");
       out.write("          </li>\r\n");
+      out.write("          <li class=\"pro1\">\r\n");
+      out.write("            <div class=\"imgpro\"><img src=\"../img/prod1.jpg\"></div>\r\n");
+      out.write("            <div class=\"desc1\">\r\n");
+      out.write("              <strong style=\"color: #122b40;width: 100%;\">Nombre Producto</strong><br><br>\r\n");
+      out.write("              <strong style=\"width: 100%;\">S/ 50.00</strong><br><br>\r\n");
+      out.write("              <div class=\"botones\">\r\n");
+      out.write("                <button class=\"btn btn-info\">Pedir</button>\r\n");
+      out.write("                <button class=\"btn btn-primary\">Ver mas</button>\r\n");
+      out.write("              </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("          </li>\r\n");
       out.write("        </ul>\r\n");
       out.write("      </div>\r\n");
       out.write("    </div>\r\n");

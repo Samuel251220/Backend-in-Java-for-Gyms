@@ -24,8 +24,9 @@
           <li class="bar"><a href="../inicio.jsp">Inicio</a></li><!-- class="active"-->
           <li class="bar"><a href="nosotros.jsp">Nosotros</a></li>
           <li class="bar"><a href="registrarse.jsp">Articulos</a></li>
-          <li class="bar"><a href="multimedia.jsp">Multimedia</a></li>
           <li class="bar" style="background: #FBB829;"><a href="registrarse.jsp" style="color: #000;">Registrarse</a></li>
+          <li class="bar"><a href="multimedia.jsp">Iniciar Seción</a></li>
+          
         </ul> 
       </div>
     </div>

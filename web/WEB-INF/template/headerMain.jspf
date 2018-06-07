@@ -29,9 +29,8 @@
 				        <li class="bar"><a href="inicio.jsp">Inicio</a></li><!-- class="active"-->
 				        <li class="bar"><a href="view/nosotros.jsp">Nosotros</a></li>
 				        <li class="bar"><a href="view/articulos.jsp">Articulos</a></li>
-				        <li class="bar"><a href="view/multimedia.jsp">Multimedia</a></li>
 				        <li class="bar"><a href="view/registrarse.jsp">Registrarse</a></li>
-                                        <li class="bar"><a href="view/sesion.jsp">Iniciar seción</a></li>
+                                        <li class="bar"><a href="view/sesion.jsp">Iniciar Seción</a></li>
                                         
 				        <!--<li class="dropdown">
 					        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false">

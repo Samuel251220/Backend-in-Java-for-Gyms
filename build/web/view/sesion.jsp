@@ -13,15 +13,15 @@
         <%@include file="../WEB-INF/template/headLogin.jspf" %>
     </head>
     <body style="background: linear-gradient(to right,#2b4b52,#00d1ff);">
-      <%@include file="../WEB-INF/template/headerRegistrar.jspf" %>
+      <%@include file="../WEB-INF/template/headerSesion.jspf" %>
       <div class="contentAll">
         <div class="imgL" style="background-image: url(../img/login.jpg);">Log In</div>
         <div class="formuDiv">
           <form class="formu">
             <div class="divI">
-              <label>Username: </label>
+              <label>Ususario:</label>
               <input type="text" placeholder="Enter username" class="txt"><br><br>
-              <label>Password: </label>
+              <label>Contraseña: </label>
               <input type="password" placeholder="Enter password" class="txt">
             </div>
             <br><br>

@@ -102,6 +102,17 @@
             </div>
             <div class="imgpro"><img src="../img/prod1.jpg"></div>
           </li>
+          <li class="pro1">
+            <div class="imgpro"><img src="../img/prod1.jpg"></div>
+            <div class="desc1">
+              <strong style="color: #122b40;width: 100%;">Nombre Producto</strong><br><br>
+              <strong style="width: 100%;">S/ 50.00</strong><br><br>
+              <div class="botones">
+                <button class="btn btn-info">Pedir</button>
+                <button class="btn btn-primary">Ver mas</button>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
