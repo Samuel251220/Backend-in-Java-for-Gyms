@@ -33,7 +33,74 @@
       <div class="prod">
         <ul class="productos">
           <li class="pro">
-            <div class="imgpro"></div>
+            <div class="desc">
+              <p>Nombre del Producto</p>
+              <hr>
+              <div class="prec">
+                <p>Precio: </p>
+                <span class="precio">S/ 50</span>
+              </div>
+              <div class="descP">
+                <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
+              </div>
+            </div>
+            <div class="imgpro new"><img src="../img/prod1.jpg"></div>
+          </li>
+          <li class="pro">
+            <div class="desc">
+              <p>Nombre del Producto</p>
+              <hr>
+              <div class="prec">
+                <p>Precio: </p>
+                <span class="precio">S/ 50</span>
+              </div>
+              <div class="descP">
+                <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
+              </div>
+            </div>
+            <div class="imgpro"><img src="../img/prod1.jpg"></div>
+          </li>
+          <li class="pro">
+            <div class="desc">
+              <p>Nombre del Producto</p>
+              <hr>
+              <div class="prec">
+                <p>Precio: </p>
+                <span class="precio">S/ 50</span>
+              </div>
+              <div class="descP">
+                <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
+              </div>
+            </div>
+            <div class="imgpro"><img src="../img/prod1.jpg"></div>
+          </li>
+          <li class="pro">
+            <div class="desc">
+              <p>Nombre del Producto</p>
+              <hr>
+              <div class="prec">
+                <p>Precio: </p>
+                <span class="precio">S/ 50</span>
+              </div>
+              <div class="descP">
+                <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
+              </div>
+            </div>
+            <div class="imgpro"><img src="../img/prod1.jpg"></div>
+          </li>
+          <li class="pro">
+            <div class="desc">
+              <p>Nombre del Producto</p>
+              <hr>
+              <div class="prec">
+                <p>Precio: </p>
+                <span class="precio">S/ 50</span>
+              </div>
+              <div class="descP">
+                <p>Este producto cuesta 50 soles y esta una pequeña descripcion del producto</p>
+              </div>
+            </div>
+            <div class="imgpro"><img src="../img/prod1.jpg"></div>
           </li>
         </ul>
       </div>
