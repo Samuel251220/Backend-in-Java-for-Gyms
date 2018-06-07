@@ -14,9 +14,47 @@
     </head>
     <body>
         <%@include file="../WEB-INF/template/headerMain.jspf" %>
-        <h1>Articulos!</h1>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="contenedor">
+		<div class="contenedor_tarjeta">
+			<a href="http://www.falconmasters.com">
+				<figure id="tarjeta">
+                                    <img src="../img/rotacion1.jpg" class="frontal" alt="">
+					<figcaption class="trasera">
+						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
+					</figcaption>
+				</figure>
+			</a>
+		</div>
+
+		<div class="contenedor_tarjeta">
+			<a href="http://www.falconmasters.com">
+				<figure id="tarjeta">
+                                    <img src="../img/rotacion2.jpg" class="frontal" alt="">
+					<figcaption class="trasera">
+						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
+					</figcaption>
+				</figure>
+			</a>
+		</div>
+
+		<div class="contenedor_tarjeta">
+			<a href="http://www.falconmasters.com">
+				<figure id="tarjeta">
+                                    <img src="../img/rotacion3.jpg" class="frontal" alt="">
+					<figcaption class="trasera">
+						<h2 class="titulo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, vero!</h2>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis cupiditate voluptates ipsum suscipit, aspernatur eum, amet nemo architecto nihil corrupti.</p>
+					</figcaption>
+				</figure>
+			</a>
+		</div>
+	</div>
+        <br><br><br><br><br><br>
         <%@include file="../WEB-INF/template/footerMain.jspf" %>
         <%@include file="../WEB-INF/template/footerLinks.jspf" %> 
     </body>
