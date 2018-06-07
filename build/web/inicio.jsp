@@ -24,7 +24,6 @@
             <div class="slide"></div>
             <div class="slide"></div>
         </div>
-    
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br>
         <%@include file="WEB-INF/template/FooterMain.jspf" %>
