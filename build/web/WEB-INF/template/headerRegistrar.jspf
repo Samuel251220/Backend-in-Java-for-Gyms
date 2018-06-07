@@ -21,11 +21,11 @@
 
         <ul class="nav navbar-nav">
 
-          <li class="bar"><a href="../inicio.jsp">Inicio</a></li><!-- class="active"-->
-          <li class="bar"><a href="nosotros.jsp">Nosotros</a></li>
-          <li class="bar"><a href="registrarse.jsp">Articulos</a></li>
-          <li class="bar" style="background: #FBB829;"><a href="registrarse.jsp" style="color: #000;">Registrarse</a></li>
-          <li class="bar"><a href="multimedia.jsp">Iniciar Seción</a></li>
+          <li class="bar"><a href="menu?op=1">Inicio</a></li><!-- class="active"-->
+          <li class="bar"><a href="menu?op=2">Nosotros</a></li>
+          <li class="bar"><a href="menu?op=3">Articulos</a></li>
+          <li class="bar" style="background: #FBB829;"><a href="menu?op=4" style="color: #000;">Registrarse</a></li>
+          <li class="bar"><a href="menu?op=5">Iniciar Seción</a></li>
           
         </ul> 
       </div>
