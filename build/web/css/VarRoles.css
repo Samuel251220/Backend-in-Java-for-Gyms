@@ -1,0 +1,38 @@
+
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF;
+}
+.navbar-brand{
+	font-size: 23px;
+
+}
+.bar{
+	font-size: 17px;
+}
+.pesa{
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-top: 9px;
+}
+.barra{
+	background-image: linear-gradient(to bottom, #14162D 0%, #222534 92%);
+}
+.flecha{
+	color: #FFFFFF;
+	font-size: 2em;
+}
+.cont-flecha{
+	margin-left: 12px;
+	margin-top: 9px;
+}
+
+.flecha:hover{
+	color: #61CCF0;
+}
+
+.pesa:hover{
+	color: #61CCF0;
+}

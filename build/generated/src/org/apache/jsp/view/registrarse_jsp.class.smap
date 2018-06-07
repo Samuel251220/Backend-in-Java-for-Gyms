@@ -5,8 +5,8 @@ JSP
 *F
 + 0 registrarse.jsp
 view/registrarse.jsp
-+ 1 headLogin.jspf
-view/../WEB-INF/template/headLogin.jspf
++ 1 headvar.jspf
+view/../WEB-INF/template/headvar.jspf
 + 2 headerRegistrar.jspf
 view/../WEB-INF/template/headerRegistrar.jspf
 + 3 footerLogin.jspf
@@ -17,14 +17,14 @@ view/../WEB-INF/template/footerMain.jspf
 view/../WEB-INF/template/footerLinks.jspf
 *L
 5,9:53
-1#1,7:62
-13#0,4:69
-1#2,33:73
-16#0,28:106
-1#3,4:134
-43#0,2:138
-1#4,53:140
-44#0,2:192
-1#5,5:194
-45#0,4:199
+1#1,10:62
+13#0,4:71
+1#2,34:75
+16#0,28:109
+1#3,4:137
+43#0,2:141
+1#4,53:143
+44#0,2:195
+1#5,5:197
+45#0,4:202
 *E

@@ -11,6 +11,13 @@ public final class productos_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.List<String> _jspx_dependants;
 
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(3);
+    _jspx_dependants.add("/view/../WEB-INF/template/LinksRolesHead.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/VarGerente.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/LinksRolesFooter.jspf");
+  }
+
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
   public java.util.List<String> getDependants() {
@@ -49,10 +56,55 @@ public final class productos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("  <head>\r\n");
       out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
       out.write("    <title>JSP Page</title>\r\n");
-      out.write("    <link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\r\n");
-      out.write("    <link rel=\"stylesheet\" href=\"../css/producto.css\">\r\n");
+      out.write("    ");
+      out.write("\n");
+      out.write("\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/VarRoles.css\"/>\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/reservasTab.css\"/>\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/usuariosTab.css\"/>\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/producto.css\">\n");
+      out.write("\r\n");
+      out.write("    \r\n");
       out.write("  </head>\r\n");
       out.write("  <body>\r\n");
+      out.write("      ");
+      out.write("\n");
+      out.write("\n");
+      out.write("<header class>\n");
+      out.write("\n");
+      out.write("\t    <nav class=\"navbar navbar-inverse navbar-static-top barra\" role=\"navigation\"> \n");
+      out.write("\t\t    <div class=\"container\">\n");
+      out.write("\t\t\t    <div class=\"navbar-header\">\n");
+      out.write("\t\t\t    \t<i class=\"pesa fas fa-dumbbell\"></i>\n");
+      out.write("\t\t\t\t\n");
+      out.write("\t\t\t\t    <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navegacion\" aria-expended=\"false\" aria-controls=\"navbar\">\n");
+      out.write("\t\t\t\t\t    <span class=\"sr-only\">Ocultar</span>\n");
+      out.write("\t\t\t\t\t    <span class=\"icon-bar\"></span>\n");
+      out.write("\t\t\t\t\t    <span class=\"icon-bar\"></span>\n");
+      out.write("\t\t\t\t\t    <span class=\"icon-bar\"></span>\n");
+      out.write("\t\t\t\t    </button>\n");
+      out.write("\n");
+      out.write("\t\t\t\t    <a href=\"#\" class=\"navbar-brand\">Stronger GYM</a> \n");
+      out.write("\t\t\t    </div>\n");
+      out.write("\n");
+      out.write("\t\t\t\t<div class=\"collapse navbar-collapse navbar-right\" id=\"navegacion\">\n");
+      out.write("\n");
+      out.write("\t\t\t\t    <ul class=\"nav navbar-nav\">\n");
+      out.write("\t\t\t\t      \n");
+      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Usuarios</a></li><!-- class=\"active\"-->\n");
+      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Reserva</a></li>\n");
+      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Productos</a></li>\n");
+      out.write("\t\t\t\t        <li class=\"bar\"><a href=\"#\">Reportes</a></li>\n");
+      out.write("\t\t\t\t        <li class=\"bar cont-flecha\"><i class=\"far fa-arrow-alt-circle-right flecha\"></i></li>\n");
+      out.write("\t\t\t\t    \t\n");
+      out.write("\t\t\t\t    </ul> \n");
+      out.write("\t\t    \t</div>\n");
+      out.write("\t\t   </div>\n");
+      out.write("\t    </nav>\n");
+      out.write("\t</header>\n");
+      out.write("\n");
+      out.write("\r\n");
       out.write("    <div class=\"container\">\r\n");
       out.write("      <div class=\"speed\">\r\n");
       out.write("        <div class=\"input-group stylish-input-group cont\">\r\n");
@@ -155,9 +207,13 @@ public final class productos_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        </ul>\r\n");
       out.write("      </div>\r\n");
       out.write("    </div>\r\n");
-      out.write("    <script src=\"../js/fontawesome-all.js\"></script>\r\n");
-      out.write("    <script src=\"../js/jquery-3.3.1.min.js\"></script>\r\n");
-      out.write("    <script src=\"../js/bootstrap.min.js\"></script>\r\n");
+      out.write("    ");
+      out.write("\n");
+      out.write("\n");
+      out.write("<script src=\"../js/jquery-3.3.1.min.js\"></script>\n");
+      out.write("<script src=\"../js/bootstrap.min.js\"></script>\n");
+      out.write("<script src=\"../js/fontawesome-all.js\"></script>\n");
+      out.write("\r\n");
       out.write("  </body>\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {

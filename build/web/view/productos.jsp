@@ -10,10 +10,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JSP Page</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/producto.css">
+    <%@include file="../WEB-INF/template/LinksRolesHead.jspf" %>
   </head>
   <body>
+    <%@include file="../WEB-INF/template/VarGerente.jspf" %>
     <div class="container">
       <div class="speed">
         <div class="input-group stylish-input-group cont">
@@ -116,8 +116,6 @@
         </ul>
       </div>
     </div>
-    <script src="../js/fontawesome-all.js"></script>
-    <script src="../js/jquery-3.3.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <%@include file="../WEB-INF/template/LinksRolesFooter.jspf" %>
   </body>
 </html>

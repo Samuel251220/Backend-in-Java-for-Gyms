@@ -1,10 +1,10 @@
 SMAP
-productos_jsp.java
+reservasTab_jsp.java
 JSP
 *S JSP
 *F
-+ 0 productos.jsp
-view/productos.jsp
++ 0 reservasTab.jsp
+view/reservasTab.jsp
 + 1 LinksRolesHead.jspf
 view/../WEB-INF/template/LinksRolesHead.jspf
 + 2 VarGerente.jspf
@@ -13,10 +13,10 @@ view/../WEB-INF/template/VarGerente.jspf
 view/../WEB-INF/template/LinksRolesFooter.jspf
 *L
 5,9:51
-1#1,8:60
-13#0,5:67
-1#2,36:72
-17#0,104:107
-1#3,6:211
-120#0,4:216
+1#1,7:60
+13#0,4:66
+1#2,36:70
+16#0,47:105
+1#3,6:152
+62#0,4:157
 *E

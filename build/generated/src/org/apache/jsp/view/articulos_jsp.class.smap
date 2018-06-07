@@ -1,0 +1,26 @@
+SMAP
+articulos_jsp.java
+JSP
+*S JSP
+*F
++ 0 articulos.jsp
+view/articulos.jsp
++ 1 headvar.jspf
+view/../WEB-INF/template/headvar.jspf
++ 2 headerMain.jspf
+view/../WEB-INF/template/headerMain.jspf
++ 3 footerMain.jspf
+view/../WEB-INF/template/footerMain.jspf
++ 4 footerLinks.jspf
+view/../WEB-INF/template/footerLinks.jspf
+*L
+5,9:52
+1#1,10:61
+13#0,4:70
+1#2,66:74
+16#0,5:139
+1#3,53:144
+20#0,2:196
+1#4,5:198
+21#0,4:203
+*E
