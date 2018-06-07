@@ -77,12 +77,14 @@ a:hover{
   border-radius: 5%;
   float: left;
   margin: 2% 3%;
+  cursor: pointer;
 }
 .pro:hover .desc{
   bottom: 0;
 }
 .imgpro{
   position: relative;
+  transition: all 1s ease;
 }
 .imgpro > img {
   position: absolute;
@@ -120,11 +122,34 @@ a:hover{
   width: 100px;
   z-index: 50;
   color: #fff;
-  font-family: monospace;
   transform: rotate(-45deg);
   background: red;
   text-align: center;
   position: absolute;
   margin: 3%;
   left: -40px;
+}
+.pro1{
+  width: 26%;
+  height: 400px;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5%;
+  float: left;
+  margin: 2% 3%;
+  background: red;
+}
+.pro1:hover .imgpro{
+  transform: scale(1.5);
+}
+.desc1{
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  top: 225px;
+  padding: 20% 10% 10% 10%;
+  text-align: center;
 }
