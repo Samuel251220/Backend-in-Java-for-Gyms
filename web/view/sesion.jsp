@@ -9,13 +9,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-        <%@include file="../WEB-INF/template/headLogin.jspf" %>
+        <title>Iniciar sesion</title>
+        <%@include file="../WEB-INF/template/HeadMainLinks.jspf" %>
+        <link rel="stylesheet" href="../css/secion.css"/>
     </head>
     <body style="background: linear-gradient(to right,#2b4b52,#00d1ff);">
-      <%@include file="../WEB-INF/template/headerSesion.jspf" %>
+      <%@include file="../WEB-INF/template/HeadVarMain.jspf" %>
       <div class="contentAll">
-        <div class="imgL" style="background-image: url(../img/login.jpg);">Log In</div>
+        <div class="imgL" style="background-image: url(../img/login.jpg);">Iniciar sesion</div>
         <div class="formuDiv">
           <form class="formu">
             <div class="divI">
@@ -40,8 +41,7 @@
           </form>
         </div>
       </div>
-      <%@include file="../WEB-INF/template/footerLogin.jspf" %>
-      <%@include file="../WEB-INF/template/footerMain.jspf" %>
-      <%@include file="../WEB-INF/template/footerLinks.jspf" %> 
+        <%@include file="../WEB-INF/template/FooterMain.jspf" %>
+        <%@include file="../WEB-INF/template/FooterMainLinks.jspf" %> 
     </body>
 </html>

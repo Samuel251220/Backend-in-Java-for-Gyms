@@ -10,10 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <%@include file="WEB-INF/template/headLinks.jspf" %>
+        <%@include file="WEB-INF/template/HeadInicioLinks.jspf" %>
     </head>
     <body>
-        <%@include file="WEB-INF/template/headerMain.jspf" %>
+        <%@include file="WEB-INF/template/HeadVarMain.jspf" %>
         <div class="topSlider">
             <span>
                 <h1 class="bb">GIMNASIO</h1>
@@ -27,7 +27,7 @@
     
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br>
-        <%@include file="WEB-INF/template/footerMain.jspf" %>
-        <%@include file="WEB-INF/template/footerLinks.jspf" %> 
+        <%@include file="WEB-INF/template/FooterMain.jspf" %>
+        <%@include file="WEB-INF/template/FooterInicioLinks.jspf" %> 
     </body>
 </html>

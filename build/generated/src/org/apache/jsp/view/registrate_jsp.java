@@ -1,10 +1,10 @@
-package org.apache.jsp;
+package org.apache.jsp.view;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class registrate_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -13,10 +13,10 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(4);
-    _jspx_dependants.add("/WEB-INF/template/HeadInicioLinks.jspf");
-    _jspx_dependants.add("/WEB-INF/template/HeadVarMain.jspf");
-    _jspx_dependants.add("/WEB-INF/template/FooterMain.jspf");
-    _jspx_dependants.add("/WEB-INF/template/FooterInicioLinks.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/HeadMainLinks.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/HeadVarMain.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/FooterMain.jspf");
+    _jspx_dependants.add("/view/../WEB-INF/template/FooterMainLinks.jspf");
   }
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
@@ -49,25 +49,31 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
-      out.write("        ");
-      out.write("\n");
-      out.write("\n");
-      out.write("<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n");
-      out.write("<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n");
-      out.write("<link rel=\"stylesheet\" href=\"css/inicio.css\">\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("    </head>\n");
-      out.write("    <body>\n");
-      out.write("        ");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("  <head>\r\n");
+      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("    <title>Registrate</title>\r\n");
+      out.write("    ");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/nosotros.css\"/>\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/productos.css\"/>\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/registrate.css\"/>\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/secion\"/>\r\n");
+      out.write("\r\n");
+      out.write("<link rel=\"stylesheet\" href=\"../css/inicio.css\"/>\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\t");
+      out.write("\r\n");
+      out.write("  </head>\r\n");
+      out.write("  <body>\r\n");
+      out.write("    ");
       out.write("\r\n");
       out.write("\r\n");
       out.write("<header class>\r\n");
@@ -133,20 +139,34 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t    </nav>\r\n");
       out.write("\t</header>\r\n");
       out.write("\r\n");
-      out.write("\n");
-      out.write("        <div class=\"topSlider\">\n");
-      out.write("            <span>\n");
-      out.write("                <h1 class=\"bb\">GIMNASIO</h1>\n");
-      out.write("                <h2 class=\"bb\">STRONGER</h2>\n");
-      out.write("            </span>\n");
-      out.write("            <div class=\"slide\"></div>\n");
-      out.write("            <div class=\"slide\"></div>\n");
-      out.write("            <div class=\"slide\"></div>\n");
-      out.write("            <div class=\"slide\"></div>\n");
-      out.write("        </div>\n");
-      out.write("    \n");
-      out.write("        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>\n");
-      out.write("        <br><br><br><br><br><br><br><br><br><br><br>\n");
+      out.write("\r\n");
+      out.write("        <div class=\"contentAll\">\r\n");
+      out.write("            <h2>Registrate</h2>\r\n");
+      out.write("            <div class=\"imgL\" style=\"background-image: url(../img/login.jpg);\">Log In</div>\r\n");
+      out.write("            <div class=\"formuDiv\">\r\n");
+      out.write("              <form class=\"formu\">\r\n");
+      out.write("                <div class=\"divI\">\r\n");
+      out.write("                  <label>Username: </label>\r\n");
+      out.write("                  <input type=\"text\" placeholder=\"Enter username\" class=\"txt\"><br><br>\r\n");
+      out.write("                  <label>Password: </label>\r\n");
+      out.write("                  <input type=\"password\" placeholder=\"Enter password\" class=\"txt\">\r\n");
+      out.write("                </div>\r\n");
+      out.write("                <br><br>\r\n");
+      out.write("                <div class=\"divO\">\r\n");
+      out.write("                  <div class=\"divCheck\">\r\n");
+      out.write("                    <input type=\"checkbox\"><span class=\"checkS\">Recuerdame</span>\r\n");
+      out.write("                  </div>\r\n");
+      out.write("                  <div class=\"divF\">\r\n");
+      out.write("                    <span>Olvidaste tu contraseña?</span>\r\n");
+      out.write("                  </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("                <br><br>\r\n");
+      out.write("                <div class=\"divB\">\r\n");
+      out.write("                  <input type=\"button\" value=\"Iniciar Sesion\" class=\"btnL\">\r\n");
+      out.write("                </div>\r\n");
+      out.write("              </form>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
       out.write("        ");
       out.write("\n");
       out.write("\n");
@@ -200,16 +220,17 @@ public final class inicio_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t</ul>\n");
       out.write("\t\t</div>\n");
       out.write("\t</div>\n");
-      out.write("\n");
+      out.write("\r\n");
       out.write("        ");
       out.write("\n");
       out.write("\n");
-      out.write("<script src=\"js/fontawesome-all.js\"></script>\n");
-      out.write("<script src=\"js/jquery-3.3.1.min.js\"></script>\n");
-      out.write("<script src=\"js/bootstrap.min.js\"></script>");
-      out.write(" \n");
-      out.write("    </body>\n");
-      out.write("</html>\n");
+      out.write("<script src=\"../js/fontawesome-all.js\"></script>\n");
+      out.write("<script src=\"../js/jquery-3.3.1.min.js\"></script>\n");
+      out.write("<script src=\"../js/bootstrap.min.js\"></script>\n");
+      out.write("\n");
+      out.write(" \r\n");
+      out.write("  </body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

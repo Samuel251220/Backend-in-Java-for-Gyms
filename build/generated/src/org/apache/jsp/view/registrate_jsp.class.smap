@@ -1,10 +1,10 @@
 SMAP
-productos_jsp.java
+registrate_jsp.java
 JSP
 *S JSP
 *F
-+ 0 productos.jsp
-view/productos.jsp
++ 0 registrate.jsp
+view/registrate.jsp
 + 1 HeadMainLinks.jspf
 view/../WEB-INF/template/HeadMainLinks.jspf
 + 2 HeadVarMain.jspf
@@ -18,9 +18,9 @@ view/../WEB-INF/template/FooterMainLinks.jspf
 1#1,12:61
 13#0,4:73
 1#2,66:77
-16#0,3:142
-1#3,53:145
-18#0,2:197
-1#4,7:199
-19#0,4:205
+16#0,29:142
+1#3,53:171
+44#0,2:223
+1#4,7:225
+45#0,4:231
 *E
