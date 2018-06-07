@@ -1,0 +1,30 @@
+SMAP
+registro_jsp.java
+JSP
+*S JSP
+*F
++ 0 registro.jsp
+view/registro.jsp
++ 1 headLogin.jspf
+view/../WEB-INF/template/headLogin.jspf
++ 2 headerRegistrar.jspf
+view/../WEB-INF/template/headerRegistrar.jspf
++ 3 footerLogin.jspf
+view/../WEB-INF/template/footerLogin.jspf
++ 4 footerMain.jspf
+view/../WEB-INF/template/footerMain.jspf
++ 5 footerLinks.jspf
+view/../WEB-INF/template/footerLinks.jspf
+*L
+5,9:53
+1#1,7:62
+13#0,4:69
+1#2,32:73
+16#0,28:105
+1#3,3:133
+43#0,2:136
+1#4,53:138
+44#0,2:190
+1#5,5:192
+45#0,4:197
+*E
