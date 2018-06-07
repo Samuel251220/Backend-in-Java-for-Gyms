@@ -12,7 +12,7 @@
         <title>JSP Page</title>
         <%@include file="../WEB-INF/template/headLogin.jspf" %>
     </head>
-    <body>
+    <body style="background: linear-gradient(to right,#2b4b52,#00d1ff);">
       <%@include file="../WEB-INF/template/headerRegistrar.jspf" %>
       <div class="contentAll">
         <div class="imgL" style="background-image: url(../img/login.jpg);">Log In</div>
@@ -35,7 +35,7 @@
             </div>
             <br><br>
             <div class="divB">
-              <input type="button" value="Log In" class="btnL">
+              <input type="button" value="Iniciar Sesion" class="btnL">
             </div>
           </form>
         </div>
